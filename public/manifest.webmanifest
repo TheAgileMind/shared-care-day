@@ -1,0 +1,15 @@
+{
+  "id": "/",
+  "name": "Shared Care Day",
+  "short_name": "Shared day",
+  "description": "A shared daily care planner.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#f7f3ee",
+  "background_color": "#f7f3ee",
+  "icons": [
+    { "src": "/icons/app-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/app-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
