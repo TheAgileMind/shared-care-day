@@ -20,7 +20,7 @@ export const EXAMPLE_CONFIG: AppConfig = {
   morningTarget: '08:00',
   bedtimeTarget: '19:30',
   ageBasis: 'actual',
-  dateOfBirth: '2025-01-15',
+  dateOfBirth: '2026-05-10',
   caregivers: [
     { id: 'alex', name: 'Alex', email: 'alex@example.com' },
     { id: 'jordan', name: 'Jordan', email: 'jordan@example.com' },

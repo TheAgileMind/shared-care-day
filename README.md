@@ -112,17 +112,31 @@ See [SECURITY.md](SECURITY.md) for the threat model and how to report a vulnerab
 
 ## Screenshots
 
-Captured from the fictional demo (`npm run seed:demo`, signed in as `alex@example.com`) on a 390×844 mobile viewport. Never use photos or data of a real child or household.
+Captured from the fictional demo household (`npm run seed:demo`, signed in as `alex@example.com`) at a 390×844 mobile viewport. The example child is about six months old so the age-based plan is visible. Never use photos or data of a real child or household.
 
-| Screen | File |
-| --- | --- |
-| Sign-in | `screenshots/01-login.png` |
-| Live day: status and next action | `screenshots/02-now.png` |
-| Adaptive schedule timeline | `screenshots/03-schedule.png` |
-| Voice logging review sheet | `screenshots/04-voice.png` |
-| Feed editor (breast/bottle) | `screenshots/05-feed.png` |
-| History: yesterday and last 7 days | `screenshots/06-history.png` |
-| Spanish UI | `screenshots/07-es.png` |
+**Sign-in.** Allowlisted email and a shared family PIN.
+
+![Sign-in](docs/screenshots/01-login.png)
+
+**Live day.** Current status, wake-window guidance, and today’s logged events.
+
+![Live day](docs/screenshots/02-now.png)
+
+**Schedule.** Logged events in solid type, with italic predictions for the rest of the day.
+
+![Schedule](docs/screenshots/03-schedule.png)
+
+**Voice logging.** Type or dictate a phrase; review parsed events before saving.
+
+![Voice logging](docs/screenshots/04-voice.png)
+
+**History.** Yesterday’s log and a seven-day summary.
+
+![History](docs/screenshots/05-history.png)
+
+**Spanish.** The same live day after switching the UI to Spanish.
+
+![Spanish UI](docs/screenshots/06-es.png)
 
 ## Testing
 

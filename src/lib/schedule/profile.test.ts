@@ -10,7 +10,7 @@ const fixture: BabyProfile = { ...PROFILE, name: 'Test baby', dateOfBirth: '2026
 
 test('bundled example uses fictional demo values and omits a live family record', () => {
   assert.equal(EXAMPLE_CONFIG.childName, 'Sam')
-  assert.equal(EXAMPLE_CONFIG.dateOfBirth, '2025-01-15')
+  assert.equal(EXAMPLE_CONFIG.dateOfBirth, '2026-05-10')
   assert.ok(EXAMPLE_CONFIG.caregivers.every((c) => c.email.endsWith('@example.com')))
   assert.equal(PROFILE.dateOfBirth, undefined)
   assert.equal('weeksOld' in PROFILE, false)
